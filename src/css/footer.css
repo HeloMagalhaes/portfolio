@@ -1,0 +1,13 @@
+footer{
+    background-color: var(--cor-azul);
+    display: flex;
+    justify-content: center
+}
+footer p{
+    padding: 20px;
+    color: var(--cor-cinza);
+    font-size: var(--fonte-normal);
+    font-family: var(--fonte-texto); 
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
