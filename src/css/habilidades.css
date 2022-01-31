@@ -1,0 +1,35 @@
+.linguagens{
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.linguagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.linguagem:hover{
+    opacity: 0.3;
+}
+ 
+ 
+.linguagem img{
+    width: 100%;
+    border-radius: 5px;
+}
+.linguagem img:hover{
+    cursor: pointer;
+}
+.linguagem p{
+    font-size: var(--fonte-normal);
+    font-family: var(--fonte-titulo);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+

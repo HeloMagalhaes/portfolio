@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+
+html {
+    font-size: 62.5%;
+    font-size: 62.5%;
+    font-weight: 300;
+    color: var(--cor-fonte);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section{
+    padding: 7rem 0 7rem;
+}
+
+.section-title{
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.section-title h2{
+    color: var(--cor-azul);
+    font-size: var(--fonte-gigante);
+    text-transform: uppercase;
+    font-family: var(--fonte-titulo);
+    margin-bottom: 60px;
+}

@@ -1,0 +1,36 @@
+.sobre-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sobre .imagem-sobre{
+    max-width: 40%;
+    padding: 0 40px;
+    text-align: center;
+}
+.sobre .informacoes-sobre p{
+    font-family: var(--fonte-texto);
+    font-size: var(--fonte-normal);
+    max-width: 900px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.sobre .botao{
+    font-family: var(--fonte-texto);
+    font-size: var(--fonte-normal);
+    letter-spacing: 0.1rem;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    background: var(--cor-cinza);
+}
+
+.sobre .botao:hover{
+    background: var(--cor-azul);
+    padding: 20px;
+    border-radius: 3px;
+    color: var(--cor-cinza);
+    font-weight: 600;
+}

@@ -1,0 +1,44 @@
+.projetos .container-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin: 0 100px;
+}
+.projetos .container-projetos img{
+    width: 100%;
+    border-radius: 2%;
+ 
+}
+.projeto{
+    opacity: 0.4;
+}
+.projeto:hover{
+    border-radius: 5%;
+    opacity: 10;
+}
+.projeto h3{
+    font-family: var(--fonte-titulo);
+    font-size: var(--fonte-normal);
+    text-align: justify;
+}
+.projetos .informacoes-projeto p{
+    font-family: var(--fonte-texto);
+    font-size: var(--fonte-normal);
+    text-align: justify;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.github-pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-texto);
+    font-size: var(--fonte-normal);
+    color: var(--cor-azul);
+    font-weight: 600;
+}
+
+.github-pages::before{
+    content: url(../images/link.png);
+    padding-right: 10px;
+}

@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-fonte);
+}
+ul{
+    list-style: none;
+}

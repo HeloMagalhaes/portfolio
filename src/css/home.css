@@ -1,0 +1,25 @@
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: var(--fonte-titulo);
+    height: calc(100vh - 87px);
+    
+}
+.home img{
+    width: 30%;
+    margin-top: 50px;
+}
+.home .texto-home p{
+    font-size: var(--fonte-grande)
+}
+.home .texto-home h1{
+    font-size: var(--fonte-gigante);
+    font-weight: 900;
+    padding: 10px 0;
+}
+.home .texto-home h2{
+    font-size: var(--fonte-extra-grande);
+    font-weight: 600;
+}
