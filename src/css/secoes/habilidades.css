@@ -2,7 +2,7 @@
     max-width: 850px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
 }
@@ -28,4 +28,11 @@
 .linguagem:hover {
     opacity: 0.3;
     cursor: pointer;
+}
+
+@media(max-width: 441px){
+    .linguagens{
+        flex-direction: column;
+        justify-content: center;
+    }
 }

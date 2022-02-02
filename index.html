@@ -5,23 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio Heloisa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+  
 
-    <link rel="stylesheet" href="src/css/font-awesome.css" />
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/variaveis.css" />
-
     <link rel="stylesheet" href="src/css/globais.css" />
-    <link rel="stylesheet" href="src/css/header.css" />
-    <link rel="stylesheet" href="src/css/home.css" />
-    <link rel="stylesheet" href="src/css/sobre.css" />
-    <link rel="stylesheet" href="src/css/habilidades.css" />
-    <link rel="stylesheet" href="src/css/projetos.css" />
-    <link rel="stylesheet" href="src/css/contato.css" />
-    <link rel="stylesheet" href="src/css/footer.css" />
+    
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/contato.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
 
 
 </head>
@@ -34,13 +34,20 @@
             </a>
         </div>
         <nav>
+            <input id="menu-hamburguer" type="checkbox" />
+  
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
-        </nav>
+          </nav>
     </header>
     <section class="home">
         <div class="texto-home">
@@ -102,14 +109,14 @@
                 <img src="./src/images/git.png" alt="">
                 <p>git</p>
             </div>
-            <div class="linguagem">
+            <!-- <div class="linguagem">
                 <img src="./src/images/sass.png" alt="">
                 <p>sass</p>
             </div>
             <div class="linguagem">
                 <img src="./src/images/boostrap.png" alt="">
-                <p>boostrap</p>
-            </div>
+                <p>bootstrap</p>
+            </div> -->
         </div>
     </section>
     <section class="projetos section" id="projetos">

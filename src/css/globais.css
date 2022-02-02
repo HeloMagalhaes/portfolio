@@ -7,6 +7,7 @@ html {
     font-size: 62.5%;
     font-weight: 300;
     color: var(--cor-fonte);
+    scroll-behavior: smooth;
 }
 .row{
     display: flex;
@@ -28,4 +29,10 @@ html {
     text-transform: uppercase;
     font-family: var(--fonte-titulo);
     margin-bottom: 60px;
+}
+
+@media(max-width: 468px){
+    .section-title h2{
+        font-size: var(--fonte-grande);
+    }
 }

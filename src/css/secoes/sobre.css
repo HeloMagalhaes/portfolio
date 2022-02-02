@@ -10,12 +10,15 @@
     padding: 0 40px;
     text-align: center;
 }
+.sobre .imagem-sobre img{
+    width: 100%;
+}
 .sobre .informacoes-sobre p{
     font-family: var(--fonte-texto);
     font-size: var(--fonte-normal);
     max-width: 900px;
     line-height: 30px;
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 .sobre .botao{
     font-family: var(--fonte-texto);
@@ -33,4 +36,29 @@
     border-radius: 3px;
     color: var(--cor-cinza);
     font-weight: 600;
+}
+
+@media(max-width: 1380px){
+    .sobre .informacoes-sobre{
+        text-align: center;
+    }
+}
+
+@media(max-width: 954px){
+    .sobre{
+        padding: var(--mobile-padding);
+    }
+    .sobre .imagem-sobre{
+        max-width: 80%;
+        padding: 0 40px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 573px){
+    .sobre-container{
+        flex-direction: column;
+        padding: 0 0;
+        text-align: center;
+    }
 }

@@ -1,0 +1,78 @@
+.container-contato {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contato-enderecos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.contato-enderecos h3 {
+    font-family: var(--fonte-titulo);
+    font-size: var(--fonte-gigante);
+    font-weight: 600;
+    width: 80%;
+    line-height: 50px;
+}
+
+.contato-enderecos .icones-contato a img {
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    width: 60px;
+    margin: 30px 30px 0 0;
+
+}
+
+.contato-enderecos .icones-contato a img:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out;
+}
+
+.imagem-contato {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.imagem-contato img {
+    width: 100%;
+}
+
+@media(max-width: 1458px) {}
+
+@media(max-width: 903px) {
+    .container-contato {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contato-enderecos h3 {
+        width: 100%;
+        font-size: var(--fonte-grande);
+        line-height: 35px;
+    }
+
+    .contato-enderecos .icones-contato a img {
+        border-radius: 50%;
+        position: relative;
+        top: 0;
+        width: 60px;
+        margin: 30px;
+
+    }
+}
+
+@media(max-width: 510px) {
+    .contato-enderecos .icones-contato a img {
+        margin: 15px;
+    }
+}

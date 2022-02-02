@@ -74,3 +74,9 @@
     content: url(../images/link.png);
     padding-right: 10px;
 }
+@media(max-width: 1461px){
+    .projetos .container-projetos{
+      padding: var(--mobile-padding);  
+    }
+   
+}
