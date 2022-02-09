@@ -20,22 +20,13 @@
     line-height: 30px;
     margin: 25px 0;
 }
-.sobre .botao{
-    font-family: var(--fonte-texto);
-    font-size: var(--fonte-normal);
-    letter-spacing: 0.1rem;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 3px;
-    background: var(--cor-cinza);
+.btn .curriculo-btn{
+    width: 150px;
 }
 
-.sobre .botao:hover{
-    background: var(--cor-azul);
-    padding: 20px;
-    border-radius: 3px;
-    color: var(--cor-cinza);
-    font-weight: 600;
+.btn.curriculo-btn:before{
+    content: url(/src/images/cloud-computing.png);
+    width: 10px;
 }
 
 @media(max-width: 1380px){

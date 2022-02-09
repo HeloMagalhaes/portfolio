@@ -38,7 +38,7 @@
   
 .header .hamburguer {
     position: relative;
-    display: block;
+    display: none;
     background-color: var(--cor-cinza);
     width: 30px;
     height: 2px;
@@ -89,7 +89,9 @@
     .header .menu {
         display: block; 
     }
-
+    .header .hamburguer {
+        display: block;
+    }
     .header nav input:checked ~ ul {
         display: block;
     }
@@ -99,6 +101,7 @@
         top: 30px;
         right: 20px;  
         z-index: 1;
+        background-color: var(--cor-azul);
     }
 
    .header nav ul {

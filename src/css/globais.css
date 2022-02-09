@@ -9,21 +9,22 @@ html {
     color: var(--cor-fonte);
     scroll-behavior: smooth;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.section{
+.section {
     padding: 7rem 0 7rem;
 }
 
-.section-title{
+.section-title {
     flex: 0 0 100%;
     text-align: center;
 }
 
-.section-title h2{
+.section-title h2 {
     color: var(--cor-azul);
     font-size: var(--fonte-gigante);
     text-transform: uppercase;
@@ -31,8 +32,23 @@ html {
     margin-bottom: 60px;
 }
 
-@media(max-width: 468px){
-    .section-title h2{
+.btn {
+    display: inline-block;
+    padding: 5px 20px;
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-size: 1.6rem;
+    border: 1px solid #D0826F;
+    border-image: linear-gradient(to right, #3B4358, #DFE0E0, #D0826F) 1;
+}
+
+.btn:hover {
+    background-color: var(--cor-azul);
+    color: var(--cor-cinza);
+}
+
+@media(max-width: 468px) {
+    .section-title h2 {
         font-size: var(--fonte-grande);
     }
 }
