@@ -20,14 +20,26 @@
     line-height: 30px;
     margin: 25px 0;
 }
-.btn .curriculo-btn{
-    width: 150px;
+.btn-curriculo{
+    text-align: center;
+    position: relative;
+    padding-left: 40px;
+}
+.btn-curriculo img{
+    position: absolute;
+    left: 8px;
+    top: 8px;
 }
 
-.btn.curriculo-btn:before{
+/* .btn .curriculo-btn{
+    position: relative;
+    width: 150px;
+} */
+
+/* .btn.curriculo-btn:before{
     content: url(/src/images/cloud-computing.png);
     width: 10px;
-}
+} */
 
 @media(max-width: 1380px){
     .sobre .informacoes-sobre{
