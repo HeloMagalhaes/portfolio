@@ -40,11 +40,13 @@ html {
     font-size: 1.6rem;
     border: 1px solid #D0826F;
     border-image: linear-gradient(to right, #3B4358, #DFE0E0, #D0826F) 1;
+
 }
 
 .btn:hover {
     background-color: var(--cor-azul);
     color: var(--cor-cinza);
+    cursor: pointer;
 }
 
 @media(max-width: 468px) {
