@@ -26,12 +26,12 @@
 }
 
 .btn.linkedin-home::before {
-    content: url(/src/images/linkedin\ btn.png);
+    content: url(../../images/linkedin\ btn.png);
     margin-right: 5px;
 }
 
 .btn.github-home:before {
-    content: url(/src/images/github\ btn.png);
+    content: url(../../images/linkedin\ btn.png);
     margin-right: 5px;
 }
 .home img{
