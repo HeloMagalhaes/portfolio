@@ -25,12 +25,12 @@
     margin: 20px;
 }
 
-.btn.linkedin-home::before {
+.linkedin-home::before {
     content: url(/src/images/linkedin-btn.png);
     margin-right: 5px;
 }
 
-.btn.github-home:before {
+.github-home::before {
     content: url(/src/images/github-btn.png);
     margin-right: 5px;
 }
