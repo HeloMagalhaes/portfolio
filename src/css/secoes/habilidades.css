@@ -1,8 +1,8 @@
 .linguagens {
     max-width: 850px;
-    margin: 0 auto;
+    max-width: 1440px;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -30,8 +30,14 @@
     cursor: pointer;
 }
 
-@media(max-width: 441px){
-    .linguagens{
+@media(max-width: 895px) {
+    .linguagens {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 441px) {
+    .linguagens {
         flex-direction: column;
         justify-content: center;
     }

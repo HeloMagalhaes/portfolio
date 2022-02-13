@@ -6,7 +6,6 @@
     font-family: var(--fonte-titulo);
     height: calc(100vh - 87px);
     margin: 0 auto;
-    
 }
 
 .home .texto-home p{
@@ -21,17 +20,9 @@
     font-size: var(--fonte-extra-grande);
     font-weight: 600;
 }
-/* .btn.linkedin-home{
-    display: inline-block;
-    padding: 10px;
-    text-align: center;
-    font-family: var(--fonte-texto);
-    font-size: 1rem;
-    border: 1px solid #D0826F;
-    border-image: linear-gradient(to right, #D0826F, #DFE0E0, #D0826F) 1;
-} */
-.btn.linkedin-home{
-    margin: 20px 40px 0 ;
+
+.linkedin-home, .github-home{
+    margin: 20px;
 }
 
 .btn.linkedin-home::before {
@@ -59,16 +50,12 @@
     }
 }
 
-@media(max-width: 816px){
-    .home{
-        flex-direction: column;
-        justify-content: center;
-    }
+@media(max-width: 820px){
     .home .texto-home{
         text-align: center;
     }
     .home img{
-        width: 50%;
+        width: 70%;
         margin-top: 50px;
     }
 }
